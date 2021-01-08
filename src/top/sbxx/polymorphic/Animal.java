@@ -3,6 +3,7 @@ package top.sbxx.polymorphic;
 public class Animal<Sting> {
 
     private Sting name;
+    int age = 18;
 
     // 空参构造
     public Animal() {
