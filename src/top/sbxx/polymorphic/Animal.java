@@ -1,8 +1,8 @@
 package top.sbxx.polymorphic;
 
-public class Animal<Sting> {
+public class Animal {
 
-    private Sting name;
+    private String name;
     int age = 18;
 
     // 空参构造
@@ -10,15 +10,15 @@ public class Animal<Sting> {
     }
 
     // 有参构造 - 函数重载
-    public Animal(Sting name) {
+    public Animal(String name) {
         this.name = name;
     }
 
-    public Sting getName() {
+    public String getName() {
         return name;
     }
 
-    public void setName(Sting name) {
+    public void setName(String name) {
         this.name = name;
     }
 

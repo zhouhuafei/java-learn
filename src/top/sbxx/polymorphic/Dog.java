@@ -1,6 +1,6 @@
 package top.sbxx.polymorphic;
 
-public class Dog extends Animal<String> {
+public class Dog extends Animal {
     int age = 88;
 
     @Override
